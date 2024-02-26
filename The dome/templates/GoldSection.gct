@@ -1,0 +1,534 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "4c411132-23c1-4835-9498-69348a4699e4",
+	"traits": [
+		{
+			"id": "af248e27-a32e-4de8-84a3-9e0325435140",
+			"type": "trait",
+			"name": "Increased Intelligence",
+			"reference": "B15",
+			"tags": [
+				"Advantage",
+				"Attribute",
+				"Mental"
+			],
+			"levels": 1,
+			"points_per_level": 20,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "iq",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"calc": {
+				"points": 20
+			}
+		},
+		{
+			"id": "0d965164-0ca2-4daf-a865-82685747e323",
+			"type": "trait",
+			"name": "Language: @Language@",
+			"reference": "B24",
+			"tags": [
+				"Advantage",
+				"Language",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "ff972d9a-b925-4895-a489-f3d14999074d",
+					"type": "modifier",
+					"name": "Native",
+					"reference": "B23",
+					"cost": -6,
+					"cost_type": "points"
+				},
+				{
+					"id": "e9f38c71-c4bd-45ee-a5e2-b47a33029f96",
+					"type": "modifier",
+					"name": "Spoken",
+					"reference": "B24",
+					"notes": "None",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "6cd10ab4-c4f9-4764-a47d-0e77d105d862",
+					"type": "modifier",
+					"name": "Spoken",
+					"reference": "B24",
+					"notes": "Broken",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "3c7caa3c-055e-4422-ac8e-6a2d632b391c",
+					"type": "modifier",
+					"name": "Spoken",
+					"reference": "B24",
+					"notes": "Accented",
+					"cost": 2,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "231ba28d-11ce-44e1-8d23-074d40ca57c6",
+					"type": "modifier",
+					"name": "Spoken",
+					"reference": "B24",
+					"notes": "Native",
+					"cost": 3,
+					"cost_type": "points"
+				},
+				{
+					"id": "152ad20b-dc58-4abb-b256-71da14dbb89c",
+					"type": "modifier",
+					"name": "Written",
+					"reference": "B24",
+					"notes": "None",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "6304a0d6-80f3-4a5f-b3cc-3ba2ae0c8063",
+					"type": "modifier",
+					"name": "Written",
+					"reference": "B24",
+					"notes": "Broken",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "5818ab4a-2c4b-4c3e-a711-c4b6332daaca",
+					"type": "modifier",
+					"name": "Written",
+					"reference": "B24",
+					"notes": "Accented",
+					"cost": 2,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "1b77515e-5789-49a0-8238-7242900c8c2c",
+					"type": "modifier",
+					"name": "Written",
+					"reference": "B24",
+					"notes": "Native",
+					"cost": 3,
+					"cost_type": "points"
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "f21e6913-06e7-49aa-b1c1-a6ff2718bd37",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "51311fc5-a160-4165-a312-5cb6176e3626",
+					"type": "trait",
+					"name": " Cronus Rank",
+					"reference": "B29",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "f2152f52-b337-4072-ab43-d66afcbc319e",
+							"type": "modifier",
+							"name": "Replaces Status",
+							"reference": "B29",
+							"cost": 5,
+							"affects": "levels_only",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "42caab58-9f7b-4911-9ef0-a47a92e63801",
+							"type": "modifier",
+							"name": "Courtesy",
+							"reference": "B29",
+							"cost": -4,
+							"affects": "levels_only",
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"levels": 2,
+					"points_per_level": 5,
+					"can_level": true,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "dd574ac5-662a-4d97-88a0-1aa53aa9b818",
+					"type": "trait",
+					"name": "Security Clearance",
+					"reference": "B82",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "372e880a-c28c-4a3a-a3d9-0958a32e88cf",
+							"type": "modifier",
+							"name": "Narrow Clearance on a \"Need to Know\" Basis",
+							"reference": "B82",
+							"notes": "@What@",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "371151ba-96e4-4927-bcbc-fd9e20b16a6c",
+							"type": "modifier",
+							"name": "Narrow Clearance with Free Access",
+							"reference": "B82",
+							"notes": "@What@",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "921014e9-98e0-4f0b-a125-6b3d836d7760",
+							"type": "modifier",
+							"name": "Broad Clearance on a \"Need to Know\" Basis",
+							"reference": "B82",
+							"notes": "@What@",
+							"cost": 10,
+							"cost_type": "points"
+						},
+						{
+							"id": "63b54b2b-2fb8-456c-843c-a51b45f1debe",
+							"type": "modifier",
+							"name": "Broad Clearance with Free Access",
+							"reference": "B82",
+							"notes": "@What@",
+							"cost": 15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "8fbd1958-c022-4940-b17f-ba241f2a787e",
+							"type": "modifier",
+							"name": "Minor Importance",
+							"reference": "B83",
+							"cost": 0.5,
+							"cost_type": "multiplier"
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "c134bdf8-ef2c-4189-9d45-0093af88808f",
+					"type": "trait",
+					"name": "Blue Section Rank",
+					"reference": "B29",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "f2152f52-b337-4072-ab43-d66afcbc319e",
+							"type": "modifier",
+							"name": "Replaces Status",
+							"reference": "B29",
+							"cost": 5,
+							"affects": "levels_only",
+							"cost_type": "points"
+						},
+						{
+							"id": "42caab58-9f7b-4911-9ef0-a47a92e63801",
+							"type": "modifier",
+							"name": "Courtesy",
+							"reference": "B29",
+							"cost": -4,
+							"affects": "levels_only",
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"can_level": true,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "d5339feb-3e86-4402-9cc0-c334c4291caf",
+					"type": "trait",
+					"name": "Duty (Cronus)",
+					"reference": "B133",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "fb0c80a4-4c65-4521-9e18-7378dda34a46",
+							"type": "modifier",
+							"name": "FR: 6",
+							"cost": -2,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "92ade39a-a64c-4ff4-a84b-89ab92a6e217",
+							"type": "modifier",
+							"name": "FR: 9",
+							"cost": -5,
+							"cost_type": "points"
+						},
+						{
+							"id": "80577150-cbdb-4c26-bde4-1ad85a7deec2",
+							"type": "modifier",
+							"name": "FR: 12",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "d6406b89-6289-4b8c-b7c7-4d25add3c352",
+							"type": "modifier",
+							"name": "FR: 15",
+							"cost": -15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "f4458d02-9b67-42f8-8f31-5837064fb751",
+							"type": "modifier",
+							"name": "Extremely Hazardous",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "814f2484-cac1-4eca-af21-f9eaca8c0d0a",
+							"type": "modifier",
+							"name": "Involuntary",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "5d87b90f-fc68-4d78-8547-7c2ef58ae7bd",
+							"type": "modifier",
+							"name": "Nonhazardous",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "0b051af1-f476-4497-a637-ed4c339bb055",
+					"type": "trait",
+					"name": "Poor",
+					"reference": "B25",
+					"notes": "Starting wealth is 1/5 normal",
+					"tags": [
+						"Disadvantage",
+						"Social",
+						"Wealth"
+					],
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					}
+				}
+			],
+			"name": "Cronus Traits",
+			"calc": {
+				"points": 5
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "e6358e4d-27bf-4cb5-9335-58eb40e73537",
+			"type": "skill",
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Humanities",
+				"Knowledge",
+				"Scholarly",
+				"Social Sciences"
+			],
+			"specialization": "@College degree@",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "c375344c-ba90-4f60-914c-aaf1b5f4dcf2",
+			"type": "skill",
+			"name": "Diplomacy",
+			"reference": "B187",
+			"tags": [
+				"Business",
+				"Police",
+				"Social"
+			],
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Politics",
+					"modifier": -6
+				}
+			]
+		},
+		{
+			"id": "d82da49e-79f0-4388-b723-dcf4808aa9c8",
+			"type": "skill",
+			"name": "Administration",
+			"reference": "B174",
+			"tags": [
+				"Business",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Merchant",
+					"modifier": -3
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		}
+	],
+	"equipment": [
+		{
+			"id": "a2218acb-52cd-43e1-9f7d-5e13ef61445f",
+			"type": "equipment",
+			"description": "Auto Pistol, 9mm",
+			"reference": "B278",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon"
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "2.6 lb",
+			"weapons": [
+				{
+					"id": "1b8b0f16-cde0-4a9f-89e9-3c9fe52c4ff4",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "150/1,850",
+					"rate_of_fire": "3",
+					"shots": "15+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "2d+2 pi"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "2.6 lb"
+			}
+		}
+	]
+}

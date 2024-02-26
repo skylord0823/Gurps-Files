@@ -1,0 +1,518 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "a83cf987-c6e5-480a-aadc-7b65eb9f7819",
+	"traits": [
+		{
+			"id": "824e840c-9b0d-46b0-b6e2-f2b0bed6e8a1",
+			"type": "trait",
+			"name": "Increased Intelligence",
+			"reference": "B15",
+			"tags": [
+				"Advantage",
+				"Attribute",
+				"Mental"
+			],
+			"levels": 1,
+			"points_per_level": 20,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "iq",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"calc": {
+				"points": 20
+			}
+		},
+		{
+			"id": "046b395e-3aa7-44dd-a111-98912b579155",
+			"type": "trait",
+			"name": "Language: @Language@",
+			"reference": "B24",
+			"tags": [
+				"Advantage",
+				"Language",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "ff972d9a-b925-4895-a489-f3d14999074d",
+					"type": "modifier",
+					"name": "Native",
+					"reference": "B23",
+					"cost": -6,
+					"cost_type": "points"
+				},
+				{
+					"id": "e9f38c71-c4bd-45ee-a5e2-b47a33029f96",
+					"type": "modifier",
+					"name": "Spoken",
+					"reference": "B24",
+					"notes": "None",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "6cd10ab4-c4f9-4764-a47d-0e77d105d862",
+					"type": "modifier",
+					"name": "Spoken",
+					"reference": "B24",
+					"notes": "Broken",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "3c7caa3c-055e-4422-ac8e-6a2d632b391c",
+					"type": "modifier",
+					"name": "Spoken",
+					"reference": "B24",
+					"notes": "Accented",
+					"cost": 2,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "231ba28d-11ce-44e1-8d23-074d40ca57c6",
+					"type": "modifier",
+					"name": "Spoken",
+					"reference": "B24",
+					"notes": "Native",
+					"cost": 3,
+					"cost_type": "points"
+				},
+				{
+					"id": "152ad20b-dc58-4abb-b256-71da14dbb89c",
+					"type": "modifier",
+					"name": "Written",
+					"reference": "B24",
+					"notes": "None",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "6304a0d6-80f3-4a5f-b3cc-3ba2ae0c8063",
+					"type": "modifier",
+					"name": "Written",
+					"reference": "B24",
+					"notes": "Broken",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "5818ab4a-2c4b-4c3e-a711-c4b6332daaca",
+					"type": "modifier",
+					"name": "Written",
+					"reference": "B24",
+					"notes": "Accented",
+					"cost": 2,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "1b77515e-5789-49a0-8238-7242900c8c2c",
+					"type": "modifier",
+					"name": "Written",
+					"reference": "B24",
+					"notes": "Native",
+					"cost": 3,
+					"cost_type": "points"
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "bdbdc9f5-bb11-44b8-8b54-8802512b39fc",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "f6c028ce-9aa2-491b-ac8c-ecc7a5854d15",
+					"type": "trait",
+					"name": " Cronus Rank",
+					"reference": "B29",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "f2152f52-b337-4072-ab43-d66afcbc319e",
+							"type": "modifier",
+							"name": "Replaces Status",
+							"reference": "B29",
+							"cost": 5,
+							"affects": "levels_only",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "42caab58-9f7b-4911-9ef0-a47a92e63801",
+							"type": "modifier",
+							"name": "Courtesy",
+							"reference": "B29",
+							"cost": -4,
+							"affects": "levels_only",
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"can_level": true,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "b189a8c7-7677-4f85-a7bd-8252d69553a5",
+					"type": "trait",
+					"name": "Security Clearance",
+					"reference": "B82",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "372e880a-c28c-4a3a-a3d9-0958a32e88cf",
+							"type": "modifier",
+							"name": "Narrow Clearance on a \"Need to Know\" Basis",
+							"reference": "B82",
+							"notes": "@What@",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "371151ba-96e4-4927-bcbc-fd9e20b16a6c",
+							"type": "modifier",
+							"name": "Narrow Clearance with Free Access",
+							"reference": "B82",
+							"notes": "@What@",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "921014e9-98e0-4f0b-a125-6b3d836d7760",
+							"type": "modifier",
+							"name": "Broad Clearance on a \"Need to Know\" Basis",
+							"reference": "B82",
+							"notes": "v",
+							"cost": 10,
+							"cost_type": "points"
+						},
+						{
+							"id": "63b54b2b-2fb8-456c-843c-a51b45f1debe",
+							"type": "modifier",
+							"name": "Broad Clearance with Free Access",
+							"reference": "B82",
+							"notes": "@What@",
+							"cost": 15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "8fbd1958-c022-4940-b17f-ba241f2a787e",
+							"type": "modifier",
+							"name": "Minor Importance",
+							"reference": "B83",
+							"cost": 0.5,
+							"cost_type": "multiplier"
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "4b8bd72f-eb63-42a8-8f91-4d6dddc78dee",
+					"type": "trait",
+					"name": "White Section Rank",
+					"reference": "B29",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "f2152f52-b337-4072-ab43-d66afcbc319e",
+							"type": "modifier",
+							"name": "Replaces Status",
+							"reference": "B29",
+							"cost": 5,
+							"affects": "levels_only",
+							"cost_type": "points"
+						},
+						{
+							"id": "42caab58-9f7b-4911-9ef0-a47a92e63801",
+							"type": "modifier",
+							"name": "Courtesy",
+							"reference": "B29",
+							"cost": -4,
+							"affects": "levels_only",
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"can_level": true,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "4d2be1d5-1767-47ae-b8ca-aedc4a575013",
+					"type": "trait",
+					"name": "Duty (Cronus)",
+					"reference": "B133",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "fb0c80a4-4c65-4521-9e18-7378dda34a46",
+							"type": "modifier",
+							"name": "FR: 6",
+							"cost": -2,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "92ade39a-a64c-4ff4-a84b-89ab92a6e217",
+							"type": "modifier",
+							"name": "FR: 9",
+							"cost": -5,
+							"cost_type": "points"
+						},
+						{
+							"id": "80577150-cbdb-4c26-bde4-1ad85a7deec2",
+							"type": "modifier",
+							"name": "FR: 12",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "d6406b89-6289-4b8c-b7c7-4d25add3c352",
+							"type": "modifier",
+							"name": "FR: 15",
+							"cost": -15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "f4458d02-9b67-42f8-8f31-5837064fb751",
+							"type": "modifier",
+							"name": "Extremely Hazardous",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "814f2484-cac1-4eca-af21-f9eaca8c0d0a",
+							"type": "modifier",
+							"name": "Involuntary",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "5d87b90f-fc68-4d78-8547-7c2ef58ae7bd",
+							"type": "modifier",
+							"name": "Nonhazardous",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "e6b7747c-567b-4405-907c-27b579aad18b",
+					"type": "trait",
+					"name": "Poor",
+					"reference": "B25",
+					"notes": "Starting wealth is 1/5 normal",
+					"tags": [
+						"Disadvantage",
+						"Social",
+						"Wealth"
+					],
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					}
+				}
+			],
+			"name": "Cronus Traits",
+			"calc": {
+				"points": 0
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "667146df-a19e-416b-9357-71f5c8fe5609",
+			"type": "skill",
+			"name": "Physician",
+			"reference": "B213",
+			"tags": [
+				"Medical"
+			],
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 2,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -7
+				},
+				{
+					"type": "skill",
+					"name": "First Aid",
+					"modifier": -11
+				},
+				{
+					"type": "skill",
+					"name": "Veterinary",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "140518e8-7f1f-4c83-9d8c-a45d589fd426",
+			"type": "skill",
+			"name": "Research",
+			"reference": "B217",
+			"tags": [
+				"Scholarly",
+				"Spy"
+			],
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 2,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Writing",
+					"modifier": -3
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": true,
+						"when_tl": {
+							"compare": "at_least",
+							"qualifier": 8
+						},
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Computer Operation"
+								}
+							}
+						]
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"when_tl": {
+							"compare": "at_most",
+							"qualifier": 4
+						},
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "Language"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Written (Native"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "Language"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Written (Accented)"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "Language"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Written (Broken)"
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "9a5a07be-5f4e-4204-8e0e-ae3420704540",
+			"type": "skill",
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Knowledge",
+				"Scholarly",
+				"Spy"
+			],
+			"specialization": "@Area of Research@",
+			"difficulty": "iq/h",
+			"points": 2
+		},
+		{
+			"id": "d824e874-f543-403f-b2a4-025b3a64c46b",
+			"type": "skill",
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Knowledge",
+				"Scholarly",
+				"Spy"
+			],
+			"specialization": "@Area of Research@",
+			"difficulty": "iq/h",
+			"points": 2
+		}
+	]
+}

@@ -1,0 +1,1239 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "30566e2a-a90c-4da8-a681-d675d312cb49",
+			"type": "equipment",
+			"description": "Security Uniform",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor"
+			],
+			"quantity": 1,
+			"value": 410,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 4
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 410,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "a43ca86a-d9bc-420e-b02e-d88ee0994a1e",
+			"type": "equipment",
+			"description": "Boots, Steel toe",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Boots"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 6
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "395d6e71-e4c5-4999-9c99-988472dd4cac",
+			"type": "equipment",
+			"description": "Boots, Military",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Boots"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 8
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "31fca7d6-56de-490f-9233-8b0a6cc1817a",
+			"type": "equipment",
+			"description": "Boots, Blast",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Boots"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 10
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "cc448443-2d39-43f9-8978-434926558efe",
+			"type": "equipment",
+			"description": "Scout Light Field armor",
+			"notes": "Thin kevlar body suit",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Armor"
+			],
+			"quantity": 1,
+			"value": 480,
+			"weight": "9.25 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 5
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "9.25 lb"
+			}
+		},
+		{
+			"id": "294d77ea-1a7d-42a8-8a21-6be69b0ad340",
+			"type": "equipment",
+			"description": "Scout Helm, Reinforced",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Helmet"
+			],
+			"quantity": 1,
+			"value": 260,
+			"weight": "5.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 8
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 260,
+				"extended_weight": "5.5 lb"
+			}
+		},
+		{
+			"id": "fe1ab138-716c-4ee5-8c63-1c9cba8ceaf3",
+			"type": "equipment",
+			"description": "Scout Helm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Helmet"
+			],
+			"quantity": 1,
+			"value": 192,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 6
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 192,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ff37dcab-5cf3-43bd-abd9-f5b16019b717",
+			"type": "equipment",
+			"description": "Security Helm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Helmet"
+			],
+			"quantity": 1,
+			"value": 192,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 4
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 192,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "7420890f-cd2c-4aa4-840c-03b8c77bf201",
+			"type": "equipment",
+			"description": "Scout Field armor, Reinforced",
+			"notes": "Light kevlar body suit",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 620,
+			"weight": "11.75 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 7
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 620,
+				"extended_weight": "11.75 lb"
+			}
+		},
+		{
+			"id": "9565c3e5-0618-4993-9c18-18212185b6da",
+			"type": "equipment",
+			"description": "Scout Field armor, plated",
+			"notes": "Has Plate Slot",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 575,
+			"weight": "10.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 6
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 575,
+				"extended_weight": "10.5 lb"
+			}
+		},
+		{
+			"id": "03e0dc17-f28e-4521-bea1-dd595f54acc3",
+			"type": "equipment",
+			"description": "Scout Field armor",
+			"notes": "Light kevlar body suit",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 550,
+			"weight": "10.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 6
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 550,
+				"extended_weight": "10.5 lb"
+			}
+		},
+		{
+			"id": "1d20154a-5b7d-4e51-8d4b-eac1aca0b792",
+			"type": "equipment",
+			"description": "Reinforced Combat Helm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Helmet"
+			],
+			"quantity": 1,
+			"value": 385,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 6
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 385,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "60dcf9ca-be17-464b-83cc-6a45e82930fb",
+			"type": "equipment",
+			"description": "Reinforced Combat Gear, Suited",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 960,
+			"weight": "16.65 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 10
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 960,
+				"extended_weight": "16.65 lb"
+			}
+		},
+		{
+			"id": "fd96e8e8-7d2e-44f6-9c58-8cdac0b989bf",
+			"type": "equipment",
+			"description": "Reinforced Combat Gear, Plated",
+			"notes": "Has plate slot",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 850,
+			"weight": "15.75 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 9
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 850,
+				"extended_weight": "15.75 lb"
+			}
+		},
+		{
+			"id": "3565ee17-a2b4-42d5-b13e-32f2e2a2396d",
+			"type": "equipment",
+			"description": "Reinforced Combat Gear",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 822,
+			"weight": "15.75 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 9
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 822,
+				"extended_weight": "15.75 lb"
+			}
+		},
+		{
+			"id": "14a06681-ca62-4713-bb78-61c075d644da",
+			"type": "equipment",
+			"description": "Plate, Grade V",
+			"notes": "After taking its (uses) in damage the plate breaks",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Armor Mods"
+			],
+			"quantity": 1,
+			"value": 625,
+			"weight": "11.25 lb",
+			"max_uses": 36,
+			"uses": 36,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 9
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 625,
+				"extended_weight": "11.25 lb"
+			}
+		},
+		{
+			"id": "d5c2278c-2094-4c54-bf1d-f240dc127aef",
+			"type": "equipment",
+			"description": "Plate, Grade IV",
+			"notes": "After taking its (uses) in damage the plate breaks",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Armor Mods"
+			],
+			"quantity": 1,
+			"value": 500,
+			"weight": "8.75 lb",
+			"max_uses": 28,
+			"uses": 28,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 7
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "8.75 lb"
+			}
+		},
+		{
+			"id": "97130819-ee61-412a-a6e6-60472d67d715",
+			"type": "equipment",
+			"description": "Plate, Grade III",
+			"notes": "After taking its (uses) in damage the plate breaks",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Armor Mods"
+			],
+			"quantity": 1,
+			"value": 350,
+			"weight": "6.25 lb",
+			"max_uses": 20,
+			"uses": 20,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 5
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 350,
+				"extended_weight": "6.25 lb"
+			}
+		},
+		{
+			"id": "4f7c308b-9679-4db5-af53-765f157f3cf2",
+			"type": "equipment",
+			"description": "Plate, Grade II",
+			"notes": "After taking its (uses) in damage the plate breaks",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Armor Mods"
+			],
+			"quantity": 1,
+			"value": 210,
+			"weight": "3.75 lb",
+			"max_uses": 12,
+			"uses": 12,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 3
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 210,
+				"extended_weight": "3.75 lb"
+			}
+		},
+		{
+			"id": "5b36e7c6-5d08-4122-aef5-b2265c4fda66",
+			"type": "equipment",
+			"description": "Plate, Grade I",
+			"notes": "After taking its (uses) in damage the plate breaks",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Armor Mods"
+			],
+			"quantity": 1,
+			"value": 150,
+			"weight": "2.5 lb",
+			"max_uses": 8,
+			"uses": 8,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 2
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "528ee2ba-9c2e-41c9-a118-ef690e1a6727",
+			"type": "equipment",
+			"description": "Juggernaut Combat Gear",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 2500,
+			"weight": "50 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 15
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 15
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 11
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 11
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 22
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 2500,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "a7a532f0-832e-47ea-9cee-1d75b3c96210",
+			"type": "equipment",
+			"description": "Heavy Combat Helm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Helmet",
+				"Helmet"
+			],
+			"quantity": 1,
+			"value": 450,
+			"weight": "10.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 14
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 450,
+				"extended_weight": "10.5 lb"
+			}
+		},
+		{
+			"id": "14fab7a9-1f2d-4b8e-91c2-2c2742967e78",
+			"type": "equipment",
+			"description": "Juggernaut Helm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Helmet"
+			],
+			"quantity": 1,
+			"value": 750,
+			"weight": "15 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 18
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 750,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "2df9d171-d23f-4580-9f48-acc60ed1b35a",
+			"type": "equipment",
+			"description": "Heavy Combat Gear, Suited",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 1224,
+			"weight": "21.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 12
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 1224,
+				"extended_weight": "21.5 lb"
+			}
+		},
+		{
+			"id": "6987881c-9998-494b-8f74-847e6e23cb14",
+			"type": "equipment",
+			"description": "Heavy Combat Gear, Plated",
+			"notes": "Has plate Slot",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "21.25 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 11
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "21.25 lb"
+			}
+		},
+		{
+			"id": "6df3393f-9be7-4e0b-a859-5475d6db6a25",
+			"type": "equipment",
+			"description": "Heavy Combat Gear",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 1090,
+			"weight": "21.25 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 11
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 1090,
+				"extended_weight": "21.25 lb"
+			}
+		},
+		{
+			"id": "0f018097-012e-472b-b058-a63da47e319c",
+			"type": "equipment",
+			"description": "Combat Helm",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Helmet"
+			],
+			"quantity": 1,
+			"value": 320,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 6
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 320,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "5b3f8a83-77e9-4710-8771-065e67a6e20e",
+			"type": "equipment",
+			"description": "Basic Combat Gear",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 750,
+			"weight": "14.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 8
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 750,
+				"extended_weight": "14.5 lb"
+			}
+		},
+		{
+			"id": "32c8e32b-ee66-4010-83bd-e3a2e68d82dd",
+			"type": "equipment",
+			"description": "Basic Combat Gear, Plated",
+			"notes": "has plate slot",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Armor",
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 830,
+			"weight": "14.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 8
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 830,
+				"extended_weight": "14.5 lb"
+			}
+		},
+		{
+			"id": "7fd63071-1110-4024-b5d0-182f82bda1f2",
+			"type": "equipment",
+			"description": "Lesser Silver Apple",
+			"notes": "Provides an Edible candy like ball up to 3 times per day that recovers 2 HP",
+			"tech_level": "8+1",
+			"legality_class": "2",
+			"tags": [
+				"Artifact",
+				"Common"
+			],
+			"quantity": 1,
+			"value": 5,
+			"max_uses": 9,
+			"uses": 9,
+			"equipped": true,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e48358f3-cfbe-4de5-a76d-74139804870f",
+			"type": "equipment",
+			"description": "Lesser Golden apple",
+			"notes": "Doubles Healing speed for the next 48 hours for everyone within a 20ft radius",
+			"tech_level": "8+1",
+			"legality_class": "4",
+			"tags": [
+				"Artifact",
+				"Common"
+			],
+			"quantity": 1,
+			"value": 500,
+			"weight": "5 lb",
+			"max_uses": 1,
+			"uses": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "2e98513e-dc3b-42d9-943f-e7a46c9a76c4",
+			"type": "equipment",
+			"description": "Lesser Bronze apple",
+			"notes": "Reduces The Effects of nearby Anomolies by 1/2 for the next hour to all who touch the Orb",
+			"tech_level": "8+1",
+			"legality_class": "2",
+			"tags": [
+				"Artifact",
+				"Common"
+			],
+			"quantity": 1,
+			"value": 500,
+			"weight": "5 lb",
+			"max_uses": 1,
+			"uses": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "fe0be461-fe29-4a8b-b7df-42a82e8b7be3",
+			"type": "equipment",
+			"description": "Platnium apple",
+			"notes": "Doubles Healing speed for the next 48 hours for everyone within a 20ft radius \u0026 Reduces The Effects of nearby Anomolies by 1/2 for the next hour to all who touch the Orb",
+			"tech_level": "8+1",
+			"legality_class": "2",
+			"tags": [
+				"Artifact",
+				"Rare"
+			],
+			"quantity": 1,
+			"value": 1500,
+			"max_uses": 1,
+			"uses": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1500,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "25a17b94-8edc-4f14-976d-1027c53aa6d0",
+			"type": "equipment",
+			"description": "Silver apple",
+			"notes": "Provides an Edible candy like ball up to 5 times per day that recovers 2 HP",
+			"tech_level": "8+1",
+			"legality_class": "2",
+			"tags": [
+				"Artifact",
+				"Uncommon"
+			],
+			"quantity": 1,
+			"value": 5,
+			"max_uses": 15,
+			"uses": 15,
+			"equipped": true,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "635ddb3c-ccd7-4946-bda5-0812b26add18",
+			"type": "equipment",
+			"description": "Golden apple",
+			"notes": "Quadruples Healing speed for the next 48 hours for everyone within a 20ft radius",
+			"tech_level": "8+1",
+			"legality_class": "4",
+			"tags": [
+				"Artifact",
+				"Uncommon"
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "5 lb",
+			"max_uses": 1,
+			"uses": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "d33eba31-481e-4bcc-9543-2ff955993eef",
+			"type": "equipment",
+			"description": "Bronze apple",
+			"notes": "Reduces The Effects of nearby Anomolies by 1/4 for the next hour to all who touch the Orb",
+			"tech_level": "8+1",
+			"legality_class": "2",
+			"tags": [
+				"Artifact",
+				"Uncommon"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "5 lb",
+			"max_uses": 1,
+			"uses": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "d83833a2-af80-4692-84e0-099c42991d43",
+			"type": "equipment",
+			"description": "Requsition Credit",
+			"notes": "Used to ask for supplies or resources from cronus",
+			"legality_class": "2",
+			"tags": [
+				"Currency"
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "2575687d-23e2-4f8e-b47f-c592f75da4a4",
+			"type": "equipment",
+			"description": "****** ROUGH ARMOR ESITMATE********",
+			"notes": "70$ and 1.25lbs per DR for torso    32$ and .75 LBS  for all others",
+			"legality_class": "4",
+			"tags": [
+				"Note"
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0 lb"
+			}
+		}
+	]
+}

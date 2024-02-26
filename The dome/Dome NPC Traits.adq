@@ -1,0 +1,66 @@
+{
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "1113f994-9512-4b9c-b8d0-e0128b9b7381",
+			"type": "trait",
+			"name": "Carapace",
+			"base_points": 1,
+			"levels": 1,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "all",
+					"amount": 1
+				}
+			],
+			"can_level": true,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "210b4e47-4eda-464e-b484-03b8ce397186",
+			"type": "trait",
+			"name": "Metalic Casing (robots)",
+			"base_points": 1,
+			"levels": 1,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "all",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "de3fbd55-00aa-43df-a63d-d65b48d62311",
+			"type": "trait",
+			"name": "Enhanced Targeting System",
+			"levels": 1,
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"calc": {
+				"points": 0
+			}
+		}
+	]
+}
